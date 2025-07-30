@@ -38,7 +38,7 @@ The model incorporates 50+ predictive features:
 - **Model Performance**: Achieved MAP of 0.8096 across 29 years of backtesting
 
 ## 📈 Key Results
-### Top 5 MVP Predictions vs Actual Results
+### Top 5 MVP Predictions vs Actual Results for 2025
 
 | Player | Predicted Vote Share | Actual Vote Share | Actual Rank | Predicted Rank | Rank Difference |
 |--------|---------------------|-------------------|-------------|----------------|-----------------|

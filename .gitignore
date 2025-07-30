@@ -1,2 +1,10 @@
 .cursor/
 .venv
+teams.csv
+mvps.csv
+player_stats.csv
+player_advanced.csv
+player_advanced_og.csv
+players.csv
+nicknames.txt
+web_scraping.ipynb
