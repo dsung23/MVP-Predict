@@ -55,12 +55,10 @@ The model incorporates 50+ predictive features:
 
 ### Prerequisites
 ```bash
-pip install pandas numpy scikit-learn jupyter requests beautifulsoup4
+pip install pandas scikit-learn jupyter tqdm
 ```
 
 ### Running the Project
-1. **Data Collection**: Execute `web_scraping.ipynb` to gather latest NBA data
-2. **Data Processing**: Run `data_cleaning.ipynb` and `adding_advanced.ipynb`
-3. **Model Training**: Execute `machine_learning_v2.ipynb` for predictions
+Execute `machine_learning_v2.ipynb` for predictions
 
 --
