@@ -38,7 +38,21 @@ The model incorporates 50+ predictive features:
 - **Model Performance**: Achieved MAP of 0.8096 across 29 years of backtesting
 
 ## 📈 Key Results
+### Top 5 MVP Predictions vs Actual Results
 
+| Player | Predicted Vote Share | Actual Vote Share | Actual Rank | Predicted Rank | Rank Difference |
+|--------|---------------------|-------------------|-------------|----------------|-----------------|
+| Shai Gilgeous-Alexander | 0.933 | 0.913 | 1 | 1 | 0 |
+| Nikola Jokić | 0.711 | 0.787 | 2 | 2 | 0 |
+| Giannis Antetokounmpo | 0.357 | 0.470 | 3 | 3 | 0 |
+| Trae Young | 0.161 | 0.000 | 11 | 4 | +7 |
+| Jayson Tatum | 0.108 | 0.311 | 4 | 5 | -1 |
+
+**Key Results:**
+- **Perfect Top 3**: Model correctly predicted the top 3 MVP candidates in exact order
+- **Top 3 Accuracy**: 100% (3/3 correct rankings)
+- **Top 5 Accuracy**: 60% (3/5 correct rankings)
+- **Average Rank Difference**: 1.6 positions
 ### Model Capabilities
 - Successfully predicts MVP vote shares and player rankings with 80.96% accuracy
 - Identifies key statistical factors influencing MVP voting
