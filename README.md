@@ -47,12 +47,6 @@ The model incorporates 50+ predictive features:
 | Giannis Antetokounmpo | 0.357 | 0.470 | 3 | 3 | 0 |
 | Trae Young | 0.161 | 0.000 | 11 | 4 | +7 |
 | Jayson Tatum | 0.108 | 0.311 | 4 | 5 | -1 |
-
-**Key Results:**
-- **Perfect Top 3**: Model correctly predicted the top 3 MVP candidates in exact order
-- **Top 3 Accuracy**: 100% (3/3 correct rankings)
-- **Top 5 Accuracy**: 60% (3/5 correct rankings)
-- **Average Rank Difference**: 1.6 positions
 ### Model Capabilities
 - Successfully predicts MVP vote shares and player rankings with 80.96% accuracy
 - Identifies key statistical factors influencing MVP voting
