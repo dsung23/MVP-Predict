@@ -51,7 +51,6 @@ The model incorporates 50+ predictive features:
 
 ### Model Capabilities
 - Successfully predicts MVP vote shares and player rankings with 81.27% accuracy
-- Identifies key statistical factors influencing MVP voting
 - Evaluates ranking accuracy using Mean Average Precision (MAP)
 - Demonstrates strong performance in recent years (MAP of 0.8965 for 2019-2025)
 
@@ -65,7 +64,7 @@ The model incorporates 50+ predictive features:
 
 ### Prerequisites
 ```bash
-pip install pandas scikit-learn jupyter tqdm
+pip install pandas scikit-learn jupyter tqdm 
 ```
 
 ### Running the Project
@@ -74,7 +73,7 @@ Execute `machine_learning_v2.ipynb` for predictions
 **Note**: The notebook includes both individual models and an ensemble approach. 
 The HistGradientBoosting model provides excellent performance (MAP: 0.7914) around 3
  minutes for quick demonstrations. The ensemble Voting Regressor 
-achieves higher accuracy (MAP: 0.8127) and also takes around 3 minutes.
+achieves slightly higher accuracy (MAP: 0.8127) and also takes around 3 minutes.
 
 ## 📊 Model Performance Over Time
 
