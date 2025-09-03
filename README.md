@@ -2,21 +2,21 @@
 
 Advanced data science project building a predictive model for NBA Most Valuable Player (MVP) voting. Analyzes 30+ years of NBA statistics to predict MVP vote shares using ensemble machine learning methods, achieving a Mean Average Precision (MAP) of 0.8127.
 
-## 🎯 Key Features
+## Key Features
 
 - **Advanced Feature Engineering**: 50+ statistical predictors including traditional and advanced metrics
 - **Machine Learning Pipeline**: Ensemble Voting Regressor (Random Forest, Gradient Boosting, Hist Gradient Boosting)
 - **Performance Metrics**: Mean Average Precision (MAP) of 0.8127 for ranking accuracy
 - **Model Comparison**: HistGradientBoosting achieves MAP of 0.7914 in under 1 minute
 
-## 📊 Technical Stack
+## Technical Stack
 
 - **Python**: Pandas, NumPy, Scikit-learn
 - **Web Scraping**: Automated data extraction from Basketball Reference
 - **Machine Learning**: Ensemble Voting Regressor with HistGradientBoosting as baseline
 - **Advanced Analytics**: Player Efficiency Rating (PER), Win Shares, Box Plus/Minus, VORP
 
-## 🔬 Methodology
+## Methodology
 
 ### Data Collection & Processing
 - **Comprehensive Coverage**: 30+ years of NBA data (1991-2025)
@@ -38,7 +38,7 @@ The model incorporates 50+ predictive features:
 - **Evaluation**: Mean Average Precision (MAP) for ranking accuracy
 - **Model Performance**: Achieved MAP of 0.8127 across 30 years of backtesting
 
-## 📈 Key Results
+## Key Results
 ### Top 5 MVP Predictions vs Actual Results for 2025
 
 | Player | Predicted Vote Share | Actual Vote Share | Actual Rank | Predicted Rank | Rank Difference |
@@ -60,7 +60,7 @@ The model incorporates 50+ predictive features:
 - **Model Robustness**: Ensemble voting regressor improves accuracy and reduces overfitting
 - **Advanced Evaluation**: MAP of 0.8127 with strong recent performance (0.8965 for 2019-2025)
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 ```bash
@@ -75,7 +75,7 @@ The HistGradientBoosting model provides excellent performance (MAP: 0.7914) arou
  minutes for quick demonstrations. The ensemble Voting Regressor 
 achieves slightly higher accuracy (MAP: 0.8127) and also takes around 3 minutes.
 
-## 📊 Model Performance Over Time
+## Model Performance Over Time
 
 The model demonstrates consistent performance across different eras:
 - **Overall Performance (1996-2025)**: MAP of 0.8127
@@ -83,7 +83,7 @@ The model demonstrates consistent performance across different eras:
 - **Peak Performance**: 2003 season achieved perfect 1.000 MAP
 - **Most Challenging**: 2005 season with 0.4208 MAP
 
-## 🔍 Key Insights
+## Key Insights
 
 - **Perfect Top 3 Prediction**: Model correctly predicted the top 4 MVP finishers for 2025 in correct order
 - **Ranking Accuracy**: Successfully identifies MVP candidates with high precision
