@@ -12,7 +12,7 @@ Advanced data science project building a predictive model for NBA Most Valuable 
 ## Technical Stack
 
 - **Python**: Pandas, NumPy, Scikit-learn
-- **Web Scraping**: Automated data extraction from Basketball Reference
+- **Web Scraping**: Automated data extraction from Basketball Reference using Selenium
 - **Machine Learning**: Ensemble Voting Regressor with HistGradientBoosting as baseline
 - **Advanced Analytics**: Player Efficiency Rating (PER), Win Shares, Box Plus/Minus, VORP
 
